@@ -36,14 +36,25 @@ Day 3 has been about the visuals. I used lucide for icons and framer-motion for 
 This is where now the application starts breathing, the existenceness ;)
 
 Below are four cards or `cheshire137` (Sarah Vessels):
-![Gitcard - cheshire137 profile](/docs/cheshire137-profile.png)
-_Gitcard - cheshire137 profile_
-![Gitcard - cheshire137 the tech](/docs/cheshire137-the-tech.png)
-_Gitcard - cheshire137 the tech_
-![Gitcard - cheshire137 the grind](/docs/cheshire137-the-grind.png)
-_Gitcard - cheshire137 the grind_
-![Gitcard - cheshire137 hall of fame](/docs/cheshire137-hall-of-fame.png)
-_Gitcard - cheshire137 hall of fame_
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-around; gap: 16px;">
+  <div style="flex: 1 1 200px; text-align: center; margin-bottom: 16px;">
+    <img src="/docs/cheshire137-profile.png" alt="Gitcard - cheshire137 profile" style="width: 100%; max-width: 250px; display: block; margin: 0 auto;">
+    <em>Gitcard - cheshire137 profile</em>
+  </div>
+  <div style="flex: 1 1 200px; text-align: center; margin-bottom: 16px;">
+    <img src="/docs/cheshire137-the-tech.png" alt="Gitcard - cheshire137 the tech" style="width: 100%; max-width: 250px; display: block; margin: 0 auto;">
+    <em>Gitcard - cheshire137 the tech</em>
+  </div>
+  <div style="flex: 1 1 200px; text-align: center; margin-bottom: 16px;">
+    <img src="/docs/cheshire137-the-grind.png" alt="Gitcard - cheshire137 the grind" style="width: 100%; max-width: 250px; display: block; margin: 0 auto;">
+    <em>Gitcard - cheshire137 the grind</em>
+  </div>
+  <div style="flex: 1 1 200px; text-align: center; margin-bottom: 16px;">
+    <img src="/docs/cheshire137-hall-of-fame.png" alt="Gitcard - cheshire137 hall of fame" style="width: 100%; max-width: 250px; display: block; margin: 0 auto;">
+    <em>Gitcard - cheshire137 hall of fame</em>
+  </div>
+</div>
 
 ---
 
