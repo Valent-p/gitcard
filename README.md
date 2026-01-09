@@ -2,6 +2,12 @@
 
 GitCard is a sleek, interactive web application that generates a beautiful, shareable card summarizing your GitHub profile. It's built with modern web technologies and features fluid animations to present your stats in an engaging way ;)
 
+**FOLLOW DEVLOGS AT**: [https://veigatec.rf.gd/project/gitcard/](https://veigatec.rf.gd/project/gitcard/)
+
+---
+
+## 🚀https://veigatec.rf.gd/project/gitcard/
+
 ![GitCard Logo](/docs/gitcard-logo.png)
 _GitCard Logo_
 
