@@ -1,36 +1,96 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ✨ GitCard - Your GitHub Profile at a Glance
 
-## Getting Started
+GitCard is a sleek, interactive web application that generates a beautiful, shareable card summarizing your GitHub profile. It's built with modern web technologies and features fluid animations to present your stats in an engaging way ;)
 
-First, run the development server:
+![GitCard Logo](/docs/gitcard-logo.png)
+_GitCard Logo_
+
+---
+
+## Devlopment Progress
+
+### Day 1:
+
+Day 1 is all about designing, the wireframes. 
+
+![GitCard Wireframe Design](/docs/gitcard-wireframe.png)
+_GitCard Wireframe Design_
+
+### Day 2:
+
+Day 2 has been bringing the logic to life. I created a simple util, Github.ts,
+that fetches data from Github API. Then it calculates stars, repos and all what is required for this app.
+
+![GitCard Logic](/docs/gitcard-logic.png)
+_GitCard Logic_
+
+### Day 3:
+
+Day 3 has been about the visuals. I used lucide for icons and framer-motion for animations.
+This is where now the application starts breathing, the existenceness ;)
+
+Below are four cards or `cheshire137` (Sarah Vessels):
+![Gitcard - cheshire137 profile](/docs/cheshire137-profile.png)
+_Gitcard - cheshire137 profile_
+![Gitcard - cheshire137 the tech](/docs/cheshire137-the-tech.png)
+_Gitcard - cheshire137 the tech_
+![Gitcard - cheshire137 the grind](/docs/cheshire137-the-grind.png)
+_Gitcard - cheshire137 the grind_
+![Gitcard - cheshire137 hall of fame](/docs/cheshire137-hall-of-fame.png)
+_Gitcard - cheshire137 hall of fame_
+
+---
+
+## 🚀 Features
+
+* **Dynamic Profile Data:** Fetches your GitHub profile information in real-time.
+* **Repo Insights:** Calculates and displays your most used languages and your most starred repository.
+* **Interactive View:** A multi-pane card with smooth, custom slide animations to navigate between different stats.
+* **Modern UI:** A clean, visually appealing design built with Tailwind CSS.
+
+## 🛠️ Tech Stack
+
+* **Framework:** [Next.js](https://nextjs.org/) (v16 App Router)
+* **Language:** [TypeScript](https://www.typescriptlang.org/)
+* **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+* **Animations:** [Framer Motion](https://www.framer.com/motion/)
+* **Icons:** [Lucide React](https://lucide.dev/)
+
+## 🏁 Getting Started
+
+Follow these instructions to get a local copy of the project up and running.
+
+### Prerequisites
+
+* [Node.js](https://nodejs.org/) (v20 or later recommended)
+* npm, yarn, or your favorite package manager
+
+### Installation & Setup
+
+1. **Clone the repository:**
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+    git clone https://github.com/Valent-p/gitcard.git
+    cd gitcard
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Install dependencies:**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+    npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. **Run the development server:**
 
-## Learn More
+```bash
+    npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+4. **Open the application:**
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the result. 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### A Note on API Rate Limits
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project uses the public GitHub API to fetch profile data. Unauthenticated requests are subject to a rate limit of 60 requests per hour per IP address. For personal use and development, this is generally sufficient.
