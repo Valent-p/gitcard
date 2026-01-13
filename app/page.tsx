@@ -36,7 +36,8 @@ export default function Home(){
         <input
           type="text"
           placeholder="Github Username"
-          className="p-3 rounded text-black font-bold"
+          
+          className="p-3 rounded text-black font-bold bg-amber-100 placeholder-gray-700 focus:outline-none focus:ring-2 focus:ring-amber-400  w-64"
           value={username}
           onChange={(e) => setUsername(e.target.value)}
         ></input>
@@ -51,6 +52,21 @@ export default function Home(){
       {error && <p className="text-red-500">{error}</p>}
 
       {data && <GitCard data={data} />}
+
+      {/* The footer; Made by Valentino Phiri ;) */}
+      <footer className="mt-auto pt-10">
+        <p className="text-gray-400">
+          Made with ❤️ by{" "}
+          <a
+            href="https://github.com/Valent-p"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:underline"
+          >
+            Valentino Phiri
+          </a>
+        </p>
+      </footer>
     </div>
   );
 }
